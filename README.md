@@ -41,26 +41,7 @@ PHP Version >= 5.5.x
 
 # Use the library
 
-Usage example:
-
-```php
-require_once __DIR__.'/../vendor/autoload.php';
-use Silex\Application;
-use Xz\Process;
-class MyApplication extends Application
-{
-    use Process\Traits\ProcessTrait;
-}
-$application = new MyApplication();
-$application->register(new Process\ProcessServiceProvider());
-$application->get('/', function() use ($application) {
-    $process = $application->process('ls -la');
-    $process->start();
-    $process->wait();
-    return $output = $process->getOutput();
-});
-$application->run();
-```
+Usage example under _test/Libraries/ElasticsearchLibraryTest.php
 
 # Copyright
 
@@ -68,6 +49,8 @@ Xz ElasticSearch is a product of [0xz.de][4]
 is licensed under the [MIT][license] license.
 
 # License
+
+[Elasticsearch-Php][1] is licensed under the Apache License.
 
 [Silex][6] is licensed under the MIT license.
 
