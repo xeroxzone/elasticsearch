@@ -1,0 +1,39 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Xz\\Elasticsearch\\": "source"
+        }
+    },
+    "name": "xeroxzone/elasticsearch",
+    "type": "project",
+    "description": "Xz ElasticSearch",
+    "license": "MIT",
+    "time": "2014-02-24",
+    "keywords": [
+        "library"
+    ],
+    "homepage": "http://www.0xz.de",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.5",
+        "silex/silex": "1.1.2@stable",
+        "elasticsearch/elasticsearch": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*",
+        "squizlabs/php_codesniffer": "1.5.*"
+    },
+    "support": {
+        "email": "ralph.zickert@0xz.de",
+        "issues": "https://github.com/xeroxzone/elasticsearch/issues",
+        "wiki": "https://github.com/xeroxzone/elasticsearch/wiki",
+        "source": "https://github.com/xeroxzone/elasticsearch"
+    },
+    "authors": [
+        {
+            "name": "Ralph Zickert",
+            "email": "ralph.zickert@0xz.de",
+            "role": "developer"
+        }
+    ]
+}
