@@ -13,7 +13,7 @@
 >
     <testsuites>
         <testsuite name="Libraries">
-            <directory>./_test/Libraries/</directory>
+            <directory>./test/Libraries/</directory>
         </testsuite>
     </testsuites>
     <filter>
